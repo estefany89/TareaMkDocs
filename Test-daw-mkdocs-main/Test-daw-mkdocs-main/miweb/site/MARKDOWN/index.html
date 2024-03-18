@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://estefany89.github.io/Test-demo-mkdocs/MARKDOWN/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>MARKDOWN - Lenguaje de Marcas</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "MARKDOWN";
+        var mkdocs_page_input_path = "MARKDOWN.md";
+        var mkdocs_page_url = "/Test-demo-mkdocs/MARKDOWN/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Lenguaje de Marcas
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../HTML/">HTML</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../CSS/">CSS</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../XML/">XML</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../GIT/">GIT</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">MARKDOWN</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#1-introduccion">1. Introducción</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#2-utilizacion">2. Utilización</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#3-basico">3. Básico</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#4-tareas">4. Tareas</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#5-enlaces">5. Enlaces</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Lenguaje de Marcas</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">MARKDOWN</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="markdown">Markdown</h1>
+<ol>
+<li>Introducción</li>
+<li>Utilización</li>
+<li>Básico</li>
+<li>Tareas</li>
+<li>Enlaces</li>
+</ol>
+<h2 id="1-introduccion">1. Introducción</h2>
+<pre><code>Markdown[9] is a lightweight markup language for creating formatted text using a plain-text editor.
+John Gruber and Aaron Swartz created Markdown in 2004 as a markup language that is appealing to
+human readers in its source code form.
+Its key design goal was readability, that the language be readable as-is,
+Ojo con las versiones. Por ejemplo la de GitHub nos dice:
+1.1What is GitHub Flavored Markdown?
+GitHub Flavored Markdown, often shortened as GFM, is the dialect of Markdown that is currently
+supported for user content on GitHub.com and GitHub Enterprise.
+This formal specification, based on the CommonMark Spec, defines the syntax and semantics of this
+dialect.
+GFM is a strict superset of CommonMark. All the features which are supported in GitHub user
+content and that are not specified on the original CommonMark Spec are hence known as
+extensions, and highlighted as such.
+While GFM supports a wide range of inputs, it’s worth noting that GitHub.com and GitHub Enterprise
+perform additional post-processing and sanitization after GFM is converted to HTML to ensure
+security and consistency of the website.
+</code></pre>
+<h2 id="2-utilizacion">2. Utilización</h2>
+<pre><code>Documentación (permite control de versiones)
+GitHub (publica directamente en formato Markdown) o en GitHub Pages usando mkdocs
+Mapas (markmap)
+Presentaciones (marp)
+</code></pre>
+<h2 id="3-basico">3. Básico</h2>
+<pre><code>En general debe ser suficiente este conjunto de marcas:
+Cabeceras de nivel
+Párrafos
+Citas
+Listas
+</code></pre>
+<p>02 _markdown.md 8 / 3 / 2023</p>
+<pre><code>/
+Enlaces
+Imágenes
+Código
+Bloques de código
+Separadores
+strong / em
+Y puede ampliar con otras marcas:
+Tablas
+Listas de tareas
+emoticonos
+</code></pre>
+<h2 id="4-tareas">4. Tareas</h2>
+<pre><code>Crear documento Markdown. Incluir distintos tipos de marcas.
+Ampliar: añadir plugins VScode. Intentar numeración de secciones/cabeceras, añadir tabla de
+contenidos o imprimir a PDF.
+Ampliar: añadir plugin VScode. Crear esquema que se traduce a mapa (markmap)
+</code></pre>
+<h2 id="5-enlaces">5. Enlaces</h2>
+<pre><code>Markdown original: https://daringfireball.net/projects/markdown/basics
+Tutorial: https://tutorialmarkdown.com/sintaxis
+Especificaciones:
+CommonMark Spec: https://spec.commonmark.org/0.30/
+Github Markdown: https://github.github.com/gfm/#what-is-github-flavored-markdown
+Utilidades:
+Markmap: https://markmap.js.org/repl
+Marp: https://marp.app/
+Typora: https://typora.io/
+VScode plugins:
+Markmap:https://marketplace.visualstudio.com/items?itemName=gera2ld.markmap-
+vscode
+Marp: https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode
+MD All in One: https://marketplace.visualstudio.com/items?
+itemName=yzhang.markdown-all-in-one
+Markdown to PDF: https://marketplace.visualstudio.com/items?
+itemName=yzane.markdown-pdf
+</code></pre>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../GIT/" class="btn btn-neutral float-left" title="GIT"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../GIT/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

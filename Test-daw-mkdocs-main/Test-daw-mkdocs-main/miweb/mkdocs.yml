@@ -1,0 +1,12 @@
+site_name: Lenguaje de Marcas
+site_url: https://estefany89.github.io/Test-demo-mkdocs/
+
+nav:
+- Home: index.md
+- HTML: HTML.md
+- CSS: CSS.md
+- XML: XML.md
+- GIT: GIT.md
+- MARKDOWN: MARKDOWN.md
+
+theme: readthedocs 

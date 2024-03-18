@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://estefany89.github.io/Test-demo-mkdocs/CSS/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>CSS - Lenguaje de Marcas</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "CSS";
+        var mkdocs_page_input_path = "CSS.md";
+        var mkdocs_page_url = "/Test-demo-mkdocs/CSS/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Lenguaje de Marcas
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../HTML/">HTML</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">CSS</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#que-es-css">¿Qué es CSS?</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#funcionamiento-basico-de-css">Funcionamiento básico de CSS</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#incluir-css-en-el-mismo-documento-html">Incluir CSS en el mismo documento HTML</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#glosario-basico">Glosario básico</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../XML/">XML</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../GIT/">GIT</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../MARKDOWN/">MARKDOWN</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Lenguaje de Marcas</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">CSS</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="capitulo-1-introduccion">Capítulo 1. Introducción</h1>
+<h2 id="que-es-css">¿Qué es CSS?</h2>
+<p>CSS es un lenguaje de hojas de estilos creado para controlar el  aspecto o presentación de los documentos electrónicos definidos con HTML y XHTML. CSS es la mejor forma de separar los contenidos y su  presentación y es imprescindible para crear páginas web complejas.</p>
+<p>Separar la definición de los contenidos y la definición de su aspecto presenta numerosas ventajas, ya que obliga a crear documentos  HTML/XHTML bien definidos y con significado completo (también llamados <em>"documentos semánticos"</em>). Además, mejora la accesibilidad del documento, reduce la complejidad de su mantenimiento y permite visualizar el mismo documento en infinidad  de dispositivos diferentes.</p>
+<p>Al crear una página web, se utiliza en primer lugar el lenguaje HTML/XHTML para <em>marcar</em> los contenidos, es decir, para designar la función de cada elemento  dentro de la página: párrafo, titular, texto destacado, tabla, lista de  elementos, etc.</p>
+<p>Una vez creados los contenidos, se utiliza el lenguaje CSS para  definir el aspecto de cada elemento: color, tamaño y tipo de letra del  texto, separación horizontal y vertical entre elementos, posición de  cada elemento dentro de la página, etc.</p>
+<h3 id="funcionamiento-basico-de-css">Funcionamiento básico de CSS</h3>
+<p>Antes de que se generalizara el uso de CSS, los diseñadores de  páginas web utilizaban etiquetas HTML especiales para modificar el  aspecto de los elementos de la página. El siguiente ejemplo muestra una  página HTML con estilos definidos sin utilizar CSS:</p>
+<pre><code>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;
+  &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+&lt;head&gt;
+  &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot; /&gt;
+  &lt;title&gt;Ejemplo de estilos sin CSS&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+  &lt;h1&gt;&lt;font color=&quot;red&quot; face=&quot;Arial&quot; size=&quot;5&quot;&gt;Titular de la página&lt;/font&gt;&lt;/h1&gt;
+  &lt;p&gt;&lt;font color=&quot;gray&quot; face=&quot;Verdana&quot; size=&quot;2&quot;&gt;Un párrafo de texto no muy largo.&lt;/font&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<pre><code>!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;
+  &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot; /&gt;
+&lt;title&gt;Ejemplo de estilos con CSS&lt;/title&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+  h1 { color: red;  font-family: Arial;   font-size: large;  }
+  p  { color: gray; font-family: Verdana; font-size: medium; }
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+  &lt;h1&gt;Titular de la página&lt;/h1&gt;
+  &lt;p&gt;Un párrafo de texto no muy largo.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>CSS permite separar los contenidos de la página y la información  sobre su aspecto. En el ejemplo anterior, dentro de la propia página  HTML se crea una zona especial en la que se incluye toda la información  relacionada con los estilos de la página.</p>
+<h3 id="incluir-css-en-el-mismo-documento-html">Incluir CSS en el mismo documento HTML</h3>
+<p>Los estilos se definen en una zona específica del propio documento HTML. Se emplea la etiqueta <code>&lt;style&gt;</code> de HTML y solamente se pueden incluir en la cabecera del documento (sólo dentro de la sección <code>&lt;head&gt;</code>).</p>
+<p>Ejemplo:</p>
+<pre><code>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;
+  &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot; /&gt;
+&lt;title&gt;Ejemplo de estilos CSS en el propio documento&lt;/title&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+  p { color: black; font-family: Verdana; }
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;p&gt;Un párrafo de texto.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>Este método se emplea cuando se define un número pequeño de estilos o cuando se quieren incluir estilos específicos en una determinada página HTML que completen los estilos que se incluyen por defecto en todas las páginas del sitio web.</p>
+<h3 id="glosario-basico">Glosario básico</h3>
+<p>CSS define una serie de términos que permiten describir cada una de  las partes que componen los estilos CSS. El siguiente esquema muestra  las partes que forman un estilo CSS muy básico:</p>
+<p><img alt="Componentes de un estilo CSS básico" src="https://uniwebsidad.com/static/libros/imagenes/css/f0101.gif" /></p>
+<p><strong>Figura 1.1</strong> Componentes de un estilo CSS básico</p>
+<p>Los diferentes términos se definen a continuación:</p>
+<ul>
+<li>Regla: cada uno de los estilos que componen una hoja de estilos CSS. Cada regla está compuesta de una parte de <em>"selectores"</em>, un símbolo de <em>"llave de apertura"</em> (<code>{</code>), otra parte denominada <em>"declaración"</em> y por último, un símbolo de <em>"llave de cierre"</em> (<code>}</code>).</li>
+<li>Selector: indica el elemento o elementos HTML a los que se aplica la regla CSS.</li>
+<li>Declaración: especifica los estilos que se aplican a los elementos. Está compuesta por una o más propiedades CSS.</li>
+<li>Propiedad: característica que se modifica en el elemento  seleccionado, como por ejemplo su tamaño de letra, su color de fondo,  etc.</li>
+<li>Valor: establece el nuevo valor de la característica modificada en el elemento.</li>
+</ul>
+<p>Un archivo CSS puede contener un número ilimitado de reglas CSS, cada regla se puede aplicar a varios selectores diferentes y cada  declaración puede incluir tantos pares propiedad/valor como se desee.</p>
+<p>El estándar CSS 2.1 define 115 propiedades, cada una con su propia  lista de valores permitidos. Por su parte, los últimos borradores del  estándar CSS 3 ya incluyen 239 propiedades.</p>
+<h1 id="capitulo-2-selectores">Capítulo 2. Selectores</h1>
+<p>Para crear diseños web profesionales, es imprescindible conocer y  dominar los selectores de CSS. Como se vio en el capítulo anterior, una  regla de CSS está formada por una parte llamada "selector" y otra parte  llamada "declaración".</p>
+<p>La declaración indica <em>"qué hay que hacer"</em> y el selector indica <em>"a quién hay que hacérselo"</em>. Por lo tanto, los selectores son imprescindibles para aplicar de forma correcta los estilos CSS en una página.</p>
+<p>A un mismo elemento HTML se le pueden aplicar varias reglas CSS y  cada regla CSS puede aplicarse a un número ilimitado de elementos. En  otras palabras, una misma regla puede aplicarse sobre varios selectores y un mismo selector se puede utilizar en varias reglas.</p>
+<p>El estándar de CSS 2.1 incluye una docena de tipos diferentes de  selectores, que permiten seleccionar de forma muy precisa elementos  individuales o conjuntos de elementos dentro de una página web.</p>
+<p>No obstante, la mayoría de páginas de los sitios web se pueden diseñar utilizando solamente los cinco selectores básicos.</p>
+<h1 id="capitulo-3-modelo-de-cajas">Capítulo 3. Modelo de cajas</h1>
+<p>El modelo de cajas o <em>"box model"</em> es seguramente la  característica más importante del lenguaje de hojas de estilos CSS, ya  que condiciona el diseño de todas las páginas web. El modelo de cajas es el comportamiento de CSS que hace que todos los elementos de las  páginas se representen mediante cajas rectangulares.</p>
+<p>Las cajas de una página se crean automáticamente. Cada vez que se  inserta una etiqueta HTML, se crea una nueva caja rectangular que  encierra los contenidos de ese elemento. La siguiente imagen muestra las tres cajas rectangulares que crean las tres etiquetas HTML que incluye  la página:</p>
+<p><img alt="Las cajas se crean automáticamente al definir cada elemento HTML" src="https://uniwebsidad.com/static/libros/imagenes/css/f0402.gif" /></p>
+<p><strong>Figura 4.1</strong> Las cajas se crean automáticamente al definir cada elemento HTML</p>
+<p>Las cajas de las páginas no son visibles a simple vista porque  inicialmente no muestran ningún color de fondo ni ningún borde. La  siguiente imagen muestra las cajas que forman la página web de  http://www.alistapart.com/ después de forzar a que todas las cajas  muestren su borde:</p>
+<p><img alt="Cajas que forman la página alistapart.com" src="https://uniwebsidad.com/static/libros/imagenes/css/f0401.gif" /></p>
+<p><strong>Figura 4.2</strong> Cajas que forman la página alistapart.com</p>
+<h1 id="capitulo-4-posicionamiento-y-visualizacion">Capítulo 4. Posicionamiento y visualización</h1>
+<p>Cuando los navegadores descargan el contenido HTML y CSS de las  páginas web, aplican un procesamiento muy complejo antes de mostrar las  páginas en la pantalla del usuario.</p>
+<p>Para cumplir con el modelo de cajas presentado en el capítulo  anterior, los navegadores crean una caja para representar a cada  elemento de la página HTML. Los factores que se tienen en cuenta para  generar cada caja son:</p>
+<ul>
+<li>Las propiedades <code>width</code> y <code>height</code> de la caja (si están establecidas).</li>
+<li>El tipo de cada elemento HTML (elemento de bloque o elemento en línea).</li>
+<li>Posicionamiento de la caja (normal, relativo, absoluto, fijo o flotante).</li>
+<li>Las relaciones entre elementos (dónde se encuentra cada elemento, elementos descendientes, etc.)</li>
+<li>Otro tipo de información, como por ejemplo el tamaño de las imágenes y el tamaño de la ventana del navegador.</li>
+</ul>
+<p>En este capítulo se muestran los cinco tipos de posicionamientos  definidos para las cajas y se presentan otras propiedades que afectan a  la forma en la que se visualizan las cajas.</p>
+<h1 id="capitulo-5-imagenes">Capítulo 5. Imágenes</h1>
+<h6 id="establecer-la-anchura-y-altura-de-las-imagenes">Establecer la anchura y altura de las imágenes</h6>
+<p>Utilizando las propiedades <code>width</code> y <code>height</code>, es posible mostrar las imágenes con cualquier altura/anchura, independientemente de su altura/anchura real:</p>
+<pre><code>#destacada {
+  width: 120px;
+  height: 250px;
+}
+
+&lt;img id=&quot;destacada&quot; src=&quot;imagen.png&quot; /&gt;
+</code></pre>
+<p>No obstante, si se utilizan alturas/anchuras diferentes de las  reales, el navegador deforma las imágenes y el resultado estético es muy desagradable.</p>
+<h1 id="capitulo-6-tablas">Capítulo 6. Tablas</h1>
+<h6 id="estilos-basicos">Estilos básicos</h6>
+<p>Cuando se aplican bordes a las celdas de una tabla, el aspecto por  defecto con el que se muestra en un navegador es el siguiente:</p>
+<p><img alt="Aspecto por defecto de los bordes de una tabla" src="https://uniwebsidad.com/static/libros/imagenes/css/f1001.gif" /></p>
+<p><strong>Figura 10.1</strong> Aspecto por defecto de los bordes de una tabla</p>
+<p>El código HTML y CSS del ejemplo anterior se muestra a continuación:</p>
+<pre><code>.normal {
+  width: 250px;
+  border: 1px solid #000;
+}
+.normal th, .normal td {
+  border: 1px solid #000;
+}
+
+&lt;table class=&quot;normal&quot; summary=&quot;Tabla genérica&quot;&gt;
+  &lt;tr&gt;
+    &lt;th scope=&quot;col&quot;&gt;A&lt;/th&gt;
+    &lt;th scope=&quot;col&quot;&gt;B&lt;/th&gt;
+    &lt;th scope=&quot;col&quot;&gt;C&lt;/th&gt;
+    &lt;th scope=&quot;col&quot;&gt;D&lt;/th&gt;
+    &lt;th scope=&quot;col&quot;&gt;E&lt;/th&gt;
+  &lt;/tr&gt;
+  ...
+&lt;/table&gt;
+</code></pre>
+<hr />
+<h1 id="capitulo-7-layout">Capítulo 7. Layout</h1>
+<p>El diseño de las páginas web habituales se divide en bloques:  cabecera, menú, contenidos y pie de página. Visualmente, los bloques se  disponen en varias filas y columnas. Por este motivo, hace varios años  la estructura de las páginas HTML se definía mediante tablas.</p>
+<p>El desarrollo de CSS ha permitido que se puedan realizar los mismos  diseños sin utilizar tablas HTML. Las principales ventajas de diseñar la estructura de las páginas web con CSS en vez de con tablas HTML son las siguientes:</p>
+<ul>
+<li><strong>Mantenimiento</strong>: una página diseñada exclusivamente  con CSS es mucho más fácil de mantener que una página diseñada con  tablas. Cambiar el aspecto de una página creada con CSS es tan fácil  como modificar unas pocas reglas en las hojas de estilos. Sin embargo,  realizar la misma modificación en una página creada con tablas supone un esfuerzo muy superior y es más probable cometer errores.</li>
+<li><strong>Accesibilidad</strong>: las páginas creadas con CSS son más  accesibles que las páginas diseñadas con tablas. De hecho, los  navegadores que utilizan las personas discapacitadas (en especial las  personas invidentes) pueden tener dificultades con la estructura de las  páginas complejas creadas con tablas HTML. No obstante, diseñar una  página web exclusivamente con CSS no garantiza que la página sea  accesible.</li>
+<li><strong>Velocidad de carga</strong>: el código HTML de una página  diseñada con tablas es mucho mayor que el código de la misma página  diseñada exclusivamente con CSS, por lo que tarda más tiempo en  descargarse. En cualquier caso, si el usuario accede al sitio con una  conexión de banda ancha y la página es de un tamaño medio o reducido,  las diferencias son casi imperceptibles.</li>
+<li><strong>Semántica</strong>: aunque resulta obvio, las tablas HTML  sólo se deben utilizar para mostrar datos cuya información sólo se  entiende en forma de filas y columnas. Utilizar tablas para crear la  estructura completa de una página es tan absurdo como utilizar por  ejemplo la etiqueta <code>&lt;ul&gt;</code> para crear párrafos de texto.</li>
+</ul>
+<p>Por estos motivos, la estructura basada en tablas ha dado paso a la  estructura basada exclusivamente en CSS. Aunque crear la estructura de  las páginas sólo con CSS presenta en ocasiones retos importantes, en  general es más sencilla y flexible.</p>
+<p>En este capítulo se muestra cómo crear algunas de las estructuras o <em>layouts</em> más habituales de los diseños web utilizando exclusivamente CSS.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../HTML/" class="btn btn-neutral float-left" title="HTML"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../XML/" class="btn btn-neutral float-right" title="XML">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../HTML/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../XML/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
